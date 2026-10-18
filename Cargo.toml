@@ -1,0 +1,18 @@
+[package]
+name = "markdown_server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+actix-web = "4"
+pulldown-cmark = "0.9"
+percent-encoding = "2.3"
+html-escape = "0.2.15"
+mime = "0.3"
+
+[features]
+default = [ "theme-light-modern" ]
+theme-light-modern = []
+theme-black-white  = []
+theme-dark-blue    = []
+theme-green-black  = []
